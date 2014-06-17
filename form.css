@@ -141,6 +141,14 @@ body .cmxform .shade .form-final-submit input.button:hover {
   filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffc92b, endColorstr=#ce9a01);
 }
 
+body .cmxform .shade .form-final-submit input.ui-state-error,
+body .cmxform .shade .form-final-submit input.ui-state-error:hover,
+body .cmxform .shade .form-final-submit input.ui-state-error:focus,
+body .cmxform .shade .form-final-submit input.ui-state-error:active {
+  border: 1px solid #CCC;
+  background: #FFF;
+}
+
 body .cmxform h1 {
   font-size: 1.5em;
 }
