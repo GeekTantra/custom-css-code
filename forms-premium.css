@@ -74,6 +74,10 @@ body .cmxform .stNavMain li {
   border-bottom: none;
 }
 
+body .cmxform div.ui-tabs {
+  border-bottom: 0;
+}
+
 body .cmxform .ui-tabs .tab-body {
   border: 1px solid #DFDDDD;
   -moz-border: 1px solid #DFDDDD;
