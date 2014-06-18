@@ -310,18 +310,13 @@ body .cmxform .stNavMain li .ui-icon {
 }
 
 body .cmxform .stNavMain li.stNavNextArrow,
-body .cmxform .stNavMain li.stNavLastArrow {
+body .cmxform .stNavMain li.stNavPrevArrow {
   /*border-right:none !important;*/
   right:0px;
 }
 
-body .cmxform .stNavMain li.stNavPrevArrow,
-body .cmxform .stNavMain li.stNavFirstArrow {
-  /*border-left:none !important;*/
-}
-
 body .cmxform .stNavMain .ui-corner-left,
 body .cmxform .stNavMain .ui-corner-right {
-  border-radiu: 0;
+  border-radius: 0;
   -webkit-border-radius: 0;
 }
