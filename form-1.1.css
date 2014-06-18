@@ -324,3 +324,7 @@ body .cmxform .stNavMain .ui-corner-right {
 body .cmxform .ui-tabs .ui-tabs-nav li.ui-tabs-selected {
   padding-bottom: 0px;
 }
+
+body .cmxform .helptext {
+  font-size: 9px;
+}
