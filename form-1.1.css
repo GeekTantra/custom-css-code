@@ -172,7 +172,7 @@ body .cmxform .shade .form-final-submit input.ui-state-error:focus,
 body .cmxform .shade .form-final-submit input.ui-state-error:active {
   border: 1px solid #CCC;
   background: #FFF;
-  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: none\9;
   filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff, endColorstr=#ffffff);
 }
 
