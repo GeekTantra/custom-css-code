@@ -9,7 +9,6 @@ body #header, body #container, body #footer {
   border: none;
   margin: 0px;
   border-radius: 0px;
-  -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
 }
 
@@ -34,7 +33,6 @@ body #site-title-block {
 body #container #formDescription {
   width: auto;
   border-radius: 0px;
-  -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   margin: 0 60px;
 }
@@ -83,7 +81,6 @@ body .cmxform .ui-tabs .tab-body {
   -moz-border: 1px solid #DFDDDD;
   -webkit-border: 1px solid #DFDDDD;
   border-radius: 0px;
-  -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   margin: 35px 30px;
 }
