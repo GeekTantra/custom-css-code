@@ -53,7 +53,7 @@ body .cmxform textarea, body .cmxform textarea:hover {
   -webkit-box-shadow: inset 1px 1px 7px #cccccc;
 }
 
-body .cmxform textarea {
+body .cmxform textarea, body .cmxform textarea:hover {
   padding: 7px 15px;
 }
 
