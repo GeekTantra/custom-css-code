@@ -303,6 +303,7 @@ body .cmxform .stNavMain li {
   cursor:pointer;
   margin:0;
   height:39px!important;
+  top: -41px!important;
 }
 
 body .cmxform .stNavMain li .ui-icon {
