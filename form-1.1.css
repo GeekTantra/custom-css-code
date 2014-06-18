@@ -72,7 +72,7 @@ body .cmxform textarea, body .cmxform textarea:hover {
   -webkit-box-shadow: inset 1px 1px 7px #cccccc;
 }
 
-body .cmxform textarea {
+body .cmxform textarea, body .cmxform textarea:hover {
   padding: 7px 15px;
 }
 
@@ -264,67 +264,67 @@ body .cmxform .pq-grid-inner {
 }
 
 body .cmxform .stMainWrapper ul.ui-tabs-nav {
-	position:relative;
-	overflow:hidden;
+  position:relative;
+  overflow:hidden;
 }
 
 body .cmxform .stMainWrapper ul.ui-tabs-nav li {
-	position:absolute;
-	top:0px; /*do not set 'left' should be done in the plugin after some calculations*/
+  position:absolute;
+  top:0px; /*do not set 'left' should be done in the plugin after some calculations*/
 }
 
 body .cmxform .stMainWrapper ul.ui-tabs-nav li.stHasCloseBtn a {
-	padding-right:5px;
+  padding-right:5px;
 }
 
 body .cmxform .stMainWrapper ul.ui-tabs-nav li.stFirstTab,
 body .cmxform .stMainWrapper ul.ui-tabs-nav li {
-	margin-right:0px;
+  margin-right:0px;
 }
 
 body .cmxform .stMainWrapper ul.ui-tabs-nav li span.stCloseBtn {
-	float:left;
-	margin-top:6px;
-	margin-right:4px;
-	border:none;
-	cursor:pointer;
+  float:left;
+  margin-top:6px;
+  margin-right:4px;
+  border:none;
+  cursor:pointer;
 }
 
 body .cmxform .stNavMain {
-	list-style:none;
-	margin: 0!important;
-	padding: 0!important;
-	position:relative;
-	border:none !important;
-	width:100%;
+  list-style:none;
+  margin: 0!important;
+  padding: 0!important;
+  position:relative;
+  border:none !important;
+  width:100%;
 }
 
 body .cmxform .stNavMain li {
-	position:absolute;
-	width:16px;
-	cursor:pointer;
-	margin:0;
-	height:39px!important;
+  position:absolute;
+  width:16px;
+  cursor:pointer;
+  margin:0;
+  height:39px!important;
 }
 
 body .cmxform .stNavMain li .ui-icon {
-	margin-top:12px;
+  margin-top:12px;
 }
 
 body .cmxform .stNavMain li.stNavNextArrow,
 body .cmxform .stNavMain li.stNavLastArrow {
-	/*border-right:none !important;*/
-	right:0px;
+  /*border-right:none !important;*/
+  right:0px;
 }
 
 body .cmxform .stNavMain li.stNavPrevArrow,
 body .cmxform .stNavMain li.stNavFirstArrow {
-	/*border-left:none !important;*/
+  /*border-left:none !important;*/
 }
 
 body .cmxform .stNavMain .ui-corner-left,
 body .cmxform .stNavMain .ui-corner-right {
-	border-radiu: 0;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
+  border-radiu: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
 }
