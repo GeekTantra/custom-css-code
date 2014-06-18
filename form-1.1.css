@@ -53,7 +53,7 @@ body .cmxform .form-tabs-header .ui-state-default a {
 }
 
 body .cmxform select {
-  min-height: 50px;
+  min-height: 45px;
 }
 
 body .cmxform input[type="text"], body .cmxform input[type="text"]:hover,
