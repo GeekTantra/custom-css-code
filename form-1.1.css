@@ -14,7 +14,6 @@ body .cmxform {
 body .cmxform #form-wizard {
   border-radius: 0;
   -webkit-border-radius: 0;
-  -moz-border-radius: 0;
   padding: 0px;
 }
 
@@ -26,12 +25,10 @@ body .cmxform .ui-corner-all {
   padding-left: 0;
   border-radius: 0;
   -webkit-border-radius: 0;
-  -moz-border-radius: 0;
 }
 
 body .cmxform .ui-corner-all .ui-state-default {
   -webkit-border-radius: 0;
-  -moz-border-radius: 0;
   border-radius: 0;
 }
 
@@ -249,13 +246,13 @@ div.form-row.error input {
 body .ui-datepicker {
   font-size: 16px;
   border-radius: 0;
-  -moz-border-radius: 0;
+  
   -webkit-border-radius: 0;
 }
 
 body .ui-datepicker *.ui-corner-all {
   border-radius: 0;
-  -moz-border-radius: 0;
+  
   -webkit-border-radius: 0;
 }
 
@@ -326,5 +323,4 @@ body .cmxform .stNavMain .ui-corner-left,
 body .cmxform .stNavMain .ui-corner-right {
   border-radiu: 0;
   -webkit-border-radius: 0;
-  -moz-border-radius: 0;
 }
