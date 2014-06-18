@@ -5,14 +5,17 @@ body #errorTag {
 }
 
 body .cmxform {
-  margin-top: 43px;
   box-shadow: none !important;
   background: #f1f1f1;
+  width: 940px;
+  margin: auto;
 }
 
 body .cmxform #form-wizard {
-  margin-top: 43px;
   border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  padding: 0px;
 }
 
 body .cmxform .ui-corner-all {
@@ -20,18 +23,34 @@ body .cmxform .ui-corner-all {
   background: none;
   border: none;
   border-bottom: 1px solid #d4ccb0;
-  margin-top: -43px;
   padding-left: 0;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
 }
 
 body .cmxform .ui-corner-all .ui-state-default {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+}
+
+body .cmxform .form-tabs-header {
+  background: #FFF;
+  width: 940px;
+  padding: 0px;
+  position: relative;
+}
+
+body .cmxform .form-tabs-header.sticky {
+  z-index: 3000;
+}
+
+body .cmsform .form-tabs-header {
   margin-right: -1px;
 }
 
-body .cmxform .ui-corner-all .ui-state-default a {
+body .cmxform .form-tabs-header .ui-state-default a {
   font-weight: bold;
   padding: 10px 20px;
 }
@@ -174,7 +193,7 @@ body .cmxform .form-row label.error {
 div.form-row label,
 div.short-form-row label,
 div.long-form-row label {
-  font-size: 1.1em;
+  font-size: 15px;
   padding-bottom: 3px;
 }
 
@@ -240,6 +259,72 @@ body .ui-datepicker *.ui-corner-all {
   -webkit-border-radius: 0;
 }
 
-.form-tabs-header .ui-state-hover {
-  background: inherit;
+body .cmxform .pq-grid-inner {
+  background: #FFF;
+}
+
+body .cmxform .stMainWrapper ul.ui-tabs-nav {
+	position:relative;
+	overflow:hidden;
+}
+
+body .cmxform .stMainWrapper ul.ui-tabs-nav li {
+	position:absolute;
+	top:0px; /*do not set 'left' should be done in the plugin after some calculations*/
+}
+
+body .cmxform .stMainWrapper ul.ui-tabs-nav li.stHasCloseBtn a {
+	padding-right:5px;
+}
+
+body .cmxform .stMainWrapper ul.ui-tabs-nav li.stFirstTab,
+body .cmxform .stMainWrapper ul.ui-tabs-nav li {
+	margin-right:0px;
+}
+
+body .cmxform .stMainWrapper ul.ui-tabs-nav li span.stCloseBtn {
+	float:left;
+	margin-top:6px;
+	margin-right:4px;
+	border:none;
+	cursor:pointer;
+}
+
+body .cmxform .stNavMain {
+	list-style:none;
+	margin: 0!important;
+	padding: 0!important;
+	position:relative;
+	border:none !important;
+	width:100%;
+}
+
+body .cmxform .stNavMain li {
+	position:absolute;
+	width:16px;
+	cursor:pointer;
+	margin:0;
+	height:39px!important;
+}
+
+body .cmxform .stNavMain li .ui-icon {
+	margin-top:12px;
+}
+
+body .cmxform .stNavMain li.stNavNextArrow,
+body .cmxform .stNavMain li.stNavLastArrow {
+	/*border-right:none !important;*/
+	right:0px;
+}
+
+body .cmxform .stNavMain li.stNavPrevArrow,
+body .cmxform .stNavMain li.stNavFirstArrow {
+	/*border-left:none !important;*/
+}
+
+body .cmxform .stNavMain .ui-corner-left,
+body .cmxform .stNavMain .ui-corner-right {
+	border-radiu: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
 }

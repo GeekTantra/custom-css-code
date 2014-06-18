@@ -1,0 +1,106 @@
+body {
+  background: transparent !important;
+  width: 100%;
+}
+
+body #header, body #container, body #footer {
+  width: auto;
+  float: none;
+  border: none;
+  margin: 0px;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+
+body #header {
+  border-bottom: 1px solid #DFDDDD;
+  box-shadow: 0 1px 10px #ccc;
+}
+
+body #header #logo {
+  width: auto;
+}
+
+body #container {
+  margin: 25px 0;
+  padding: 15px 0;
+}
+
+body #site-title-block {
+  margin-left: 0px;
+}
+
+body #container #formDescription {
+  width: auto;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  margin: 0 60px;
+}
+
+body #container #wide {
+  width: auto;
+  border: none;
+  -moz-border: 1px solid #DFDDDD;
+  -webkit-border: 1px solid #DFDDDD;
+  margin: 15px 60px;
+  padding: 15px 0px;
+}
+
+body #container #wide #admissionForm, body .cmxform .form-tabs-header  {
+  width: auto;
+  background: transparent;
+}
+
+body .cmxform {
+  border:1px solid #DFDDDD;
+  padding-bottom: 35px;
+}
+
+body .cmxform .form-tabs-header {
+  border-bottom: 1px solid #DFDDDD;
+  background: #DFDDDD;
+}
+
+body .cmxform .form-tabs-header li.ui-state-default {
+  margin-top: 0px;
+  padding-bottom: 0px;
+  border-top: 0px;
+}
+
+body .cmxform .stNavMain li {
+  border-top: none;
+  border-bottom: none;
+}
+
+body .cmxform .ui-tabs .tab-body {
+  border: 1px solid #DFDDDD;
+  -moz-border: 1px solid #DFDDDD;
+  -webkit-border: 1px solid #DFDDDD;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  margin: 35px 30px;
+}
+
+div.form-row.error:hover, div.short-form-row.error:hover, div.long-form-row.error:hover, div.form-row.valid:hover, div.short-form-row.valid:hover, div.long-form-row.valid:hover, div.form-row:hover, div.short-form-row:hover, div.long-form-row:hover {
+  background-color: #ffffff;
+}
+
+body .cmxform .shade .form-final-submit {
+  float: none;
+  width: auto;
+  padding-bottom: 40px;
+}
+
+body #footer #footer-inclusions {
+  padding: 1.5em 3.5em;
+}
+
+body #footer {
+  margin-bottom: 0 !important;
+  padding-bottom: 10px;
+  border-top: 1px solid #DFDDDD;
+  box-shadow: 0px -1px 10px #ccc;
+}
