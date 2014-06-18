@@ -310,7 +310,7 @@ body .cmxform .stNavMain li .ui-icon {
 }
 
 body .cmxform .stNavMain li.stNavNextArrow,
-body .cmxform .stNavMain li.stNavPrevArrow {
+body .cmxform .stNavMain li.stNavLastArrow {
   /*border-right:none !important;*/
   right:0px;
 }
